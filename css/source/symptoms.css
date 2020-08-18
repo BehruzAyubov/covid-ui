@@ -1,0 +1,36 @@
+#symptoms{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.symptoms-header{
+    width: 100%;
+    max-width: 755px;
+    margin: 0 auto;
+}
+.symptoms-alert{
+    margin-top: 50px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    color:#FB4C47 ;
+}
+.symptoms-text{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color:#035755 ;
+    margin-bottom: 20px;
+}
+.symptoms-paragraph{
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color:#4B4F51 ;
+    line-height: 215%;
+    margin-bottom: 50px;
+}
+.symptoms-img{
+    width: 100%;
+    max-width: 900px;
+}

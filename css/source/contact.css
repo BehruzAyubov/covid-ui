@@ -1,0 +1,49 @@
+#contact{
+    width: 100%;
+    height: auto;
+}
+.contact-header{
+    text-align:center;
+    width: 100%;
+}
+.contact-question{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: #035755;
+    margin:20px 0;
+}
+.contact-form{
+    margin: 50px auto;
+    width: 100%;
+    max-width: 700px;
+    height: 70px;
+    display: flex;
+    border-radius: 50px;
+    box-shadow: 2px 0px 55px 1px rgba(214,201,214,1);
+}
+.contact-input{
+    flex: 2;
+    border-radius: 50px;
+    padding: 0 10px;
+    color:#4B4F51;
+    border: none;
+}
+.contact-input:focus{
+    outline: none;
+}
+.contact-btn{
+    flex: 1;
+    border: 10px solid white;
+    border-radius: 50px;
+    background-color: #F44A45;
+    color: white;
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+}
+.contact-btn:hover{
+    filter: opacity(0.7);
+}

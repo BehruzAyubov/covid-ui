@@ -1,0 +1,89 @@
+#contagion{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    position: relative;
+}
+.contagion-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+@media only screen and (max-width:690px){
+    .contagion-cards{
+        justify-content: center;
+    }
+}
+.contagion-cards--item{
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 5px solid #FA5652;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    background-color:white;
+    box-shadow: 2px 0px 85px 1px rgba(214,201,214,1);
+}
+.contagion-cards--item:hover{
+    transition: 0.5s ease-out;
+    transform: scale(1.1);
+}
+.cards-img{
+    width: 200px;
+}
+.contagion-header{
+    margin:0 auto;
+    width: 100%;
+    max-width: 550px;
+}
+.cards-header{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #035755;
+    margin:20px 0;
+}
+
+.cards-paragraph{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:#4B4F51;
+}
+.contagion-alert{
+    margin-top: 50px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    color:#FB4C47 ;
+}
+.contagion-text{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color:#035755 ;
+    margin-bottom: 20px;
+}
+.contagion-paragraph{
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color:#4B4F51 ;
+    line-height: 215%;
+    margin-bottom: 50px;
+}
+.corona-logo{
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    width: 200px;
+    z-index: -1;
+}

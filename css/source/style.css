@@ -1,0 +1,25 @@
+@import 'header.css';
+@import 'corona.css';
+@import 'contagion.css';
+@import 'symptoms.css';
+@import 'prevention.css';
+@import 'contact.css';
+@import 'footer.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1000px;
+    padding: 50px 0;
+}
+.header-wrapper{
+    padding: 0 0 50px;
+}
+
+
+

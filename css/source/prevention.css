@@ -1,0 +1,94 @@
+#prevention{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.prevention-header{
+    text-align: center;
+}
+.prevention-img{
+    width: 100%;
+    max-width: 300px;
+}
+.prevention-types{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 100px;
+    align-items: center;
+    justify-items: center;
+}
+
+@media screen and (max-width:768px){
+    .prevention-types{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.prevention-alert{
+    margin-top: 50px;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+    color:#FB4C47 ;
+}
+.prevention-text{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color:#035755 ;
+    margin-bottom: 20px;
+}
+.prevention-paragraph{
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color:#4B4F51 ;
+    line-height: 215%;
+    margin-bottom: 50px;
+}
+.prevention-article{
+    display: flex;
+}
+.prevention-article--num{
+    color: #FA5652;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color:rgba(250, 86, 82, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.article-wrapper{
+    width: 100%;
+    max-width: 500px;
+}
+.article-header{
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Red Hat Display', sans-serif;
+    color:  #035755;
+    margin-bottom: 10px;
+}
+.article-paragraph{
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    color:#4B4F51 ;
+    line-height: 147%;
+}
+
+.greenvirus{
+    position: absolute;
+}
+.firstGreenVirus{
+    right: 50px;
+    bottom: 300px;
+}
+.secondGreenVirus{
+    top: 500px;
+    left: -55px;
+}

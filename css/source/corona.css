@@ -1,0 +1,71 @@
+#corona{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+@media only screen and (max-width:1080px){
+
+.corona-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-container{
+    order: 1;
+}
+.corona-img-container{
+    order: 2;
+}
+}
+.corona-info{
+    width:100%;
+    max-width: 620px;
+}
+
+.corona-alert{
+    font-weight: bold;
+    font-size: 29px;
+    color:#FB4C47 ;
+    font-family: 'Spartan', sans-serif;
+}
+.corona-title{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 139%;
+    color: #035755;
+}
+.corona-paragraph{
+    font-family: 'Spartan', sans-serif;
+    max-width: 620px;
+    font-size: 20px;
+    line-height: 215%;
+    color: #4B4F51;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.corona-btn{
+    width: 180px;
+    height: 55px;
+    font-size: 20px;
+    color:#FB4C47;
+    background: rgba(250, 86, 82, 0.15);
+    border-radius: 65px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: 0.5s ease-in;
+}
+.corona-btn:hover{
+    background:#FB4C47;
+    color: white;
+}
+
+.corona-img{
+    width: 100%;
+    height: auto;
+    max-width: 600px;  
+}
